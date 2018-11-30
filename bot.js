@@ -25,7 +25,7 @@ https://discordapp.com/api/oauth2/authorize?client_id=${client.user.id}&permissi
 
 //hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
 client.on('ready', () => {
-   client.user.setGame(("R-help"),`تويش حضك`);
+   client.user.setGame(("R-help"),`http://twitch.tv/Death Shop`);
     
 });
 client.on("message", message => {
